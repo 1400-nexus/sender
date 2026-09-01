@@ -1,2 +1,14 @@
+# build outputs — one directory per platform, never shared
+build/
+build-linux/
+cmake-build-*/
 
-.vscode/*
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# generated
+compile_commands.json
+*.o
+*.a
